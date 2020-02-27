@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    max-width: 50%;
+    width: 1000px;
+    height: 340px;
+    border: 1px lightblue;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 2px 6px black;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.searchContainer {
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: white; */
+    background-color: #222;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.searchContainer input {
+    width: fit-content;
+}
+
+.searchControl {
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+#searchInput {
+    width: 100%;
+    /* in comparison to mainContainer */
+}
+
+.searchContainer button:hover {
+    background: #ccc;
+}
+
+.weatherContainer {
+    /* text-shadow: 1px 0px 0px black; */
+    visibility: hidden;
+    padding: 0;
+    border-bottom: #777777;
+}
+
+#locationHeader {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.tempContainer {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tempContainer div {
+    display: inline-block;
+}
+
+#descriptionHeader {
+    color: #777777;
+}
+
+#temperature {
+    vertical-align: 25%;
+    font-size: 38px;
+    color: #222222;
+}
+
+#windSpeed {
+    color: #777777;
+    padding-bottom: 20px;
+}
+
+#currentTimeHolder {
+    color: rgba(0, 0, 0, .5);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    color: rgba(91, 141, 145, 0.5);
+}

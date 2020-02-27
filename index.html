@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="searchContainer">
+            <!-- <h1> Enter a Valid US Zip Code</h1> -->
+            <input class="searchControl" type="text" placeholder="Search Zip Code" id="searchInput">
+            <button class="searchControl" id="searchButton" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+
+        <div id="weatherHolder" class="weatherContainer">
+            <h1 id="locationHeader">
+                <!-- getting it from JSON -->
+                Enter a Valid US Zip Code
+            </h1>
+
+            <div id="descriptionHeader">
+                <!-- getting it from JSON -->
+            </div>
+
+            <div class="tempContainer">
+                <div class="iconContainer">
+                    <img id="iconImage">
+                </div>
+                <div id="temperature">
+                    <!-- getting it from JSON -->
+                </div>
+            </div>
+
+            <div id="windSpeed">
+                <!-- getting it from JSON -->
+            </div>
+            <hr>
+        </div>
+        <p id="currentTimeHolder">
+            <!-- getting it from browser -->
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
