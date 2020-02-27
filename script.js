@@ -1,5 +1,5 @@
 // would make secure if app was hosted on a server
-let appId = 'd89b2b42611bfaf4efea038d863778c2';
+// let appId = '';
 // imperial for F, metric for C
 let units = 'imperial';
 let searchMethod = 'zip';
